@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -12,29 +10,20 @@
       href="./assets/images/favicon-32x32.png"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Social links profile</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-  <body>
-    Jessica Randall London, United Kingdom "Front-end developer and avid
-    reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+  <body class="flex flex-col font-[Inter] items-center">
+    <main>
+      <p class="text-5xl text-sky-800 px-4 py-2 text-center my-4">
+        Jessica Randall London, United Kingdom "Front-end developer and avid
+        reader." GitHub Frontend Mentor LinkedIn Twitter Instagram...
+      </p>
+    </main>
   </body>
 </html>
