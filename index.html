@@ -18,10 +18,12 @@
     />
     <title>Frontend Mentor | Social links profile</title>
   </head>
-  <body class="flex flex-col font-[Inter] items-center bg-gray-950">
-    <main class="w-full">
+  <body
+    class="flex flex-col font-[Inter] items-center bg-gray-950 justify-center w-screen min-h-screen"
+  >
+    <main class="w-full flex flex-col">
       <div
-        class="flex flex-col items-center max-w-[384px] w-full my-0 mx-auto p-10"
+        class="flex flex-col items-center max-w-[384px] w-full my-0 mx-auto p-10 bg-[#1f1f1f] rounded-md"
       >
         <img
           src="/assets/images/avatar-jessica.jpeg"
@@ -29,19 +31,43 @@
           class="w-20 h-20 rounded-[50%]"
         />
 
-        <div>
-          <h1>Jesicca Randall</h1>
-          <p>London, United Kingdom</p>
+        <div class="flex flex-col items-center gap-2">
+          <h1 class="text-2xl text-white text-center">Jesicca Randall</h1>
+          <p class="text-[14px] text-[#BEF092] font-bold">
+            London, United Kingdom
+          </p>
         </div>
 
-        <p>"Front-end developer and avid reader."</p>
+        <p class="text-[14px] font-medium text-center text-white">
+          "Front-end developer and avid reader."
+        </p>
 
-        <div>
-          <button>Github</button>
-          <button>Frontend Mentor</button>
-          <button>LinkedIn</button>
-          <button>Twitter</button>
-          <button>Instagram</button>
+        <div class="w-full flex flex-col gap-2">
+          <button
+            class="cursor-pointer hover:bg-[#BEF092] hover:text-gray-800 bg-[#333] text-[14px] text-white py-3 font-semibold w-full rounded-md"
+          >
+            Github
+          </button>
+          <button
+            class="cursor-pointer hover:bg-[#BEF092] hover:text-gray-800 bg-[#333] text-[14px] text-white py-3 font-semibold w-full rounded-md"
+          >
+            Frontend Mentor
+          </button>
+          <button
+            class="cursor-pointer hover:bg-[#BEF092] hover:text-gray-800 bg-[#333] text-[14px] text-white py-3 font-semibold w-full rounded-md"
+          >
+            LinkedIn
+          </button>
+          <button
+            class="hover:bg-[#BEF092] hover:text-gray-800 bg-[#333] text-[14px] text-white py-3 font-semibold w-full rounded-md"
+          >
+            Twitter
+          </button>
+          <button
+            class="hover:bg-[#BEF092] hover:text-gray-800 bg-[#333] text-[14px] text-white py-3 font-semibold w-full rounded-md"
+          >
+            Instagram
+          </button>
         </div>
       </div>
     </main>
